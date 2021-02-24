@@ -2,7 +2,7 @@ import numpy as np
 np.__version__
 c = np.arange(0,21,1)
 print(c)
-d = np.arange(0,21,2)
+d = c[::2]
 print(d)
-e = np.arange(0,21,3)
+e = c[3::3]
 print(e)
